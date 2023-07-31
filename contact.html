@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--meta tags-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Description" content="...">
+  	<meta name="Keywords" content="HTML, CSS, JavaScript, Multi Page">
+  	<meta name="Author" content="Ayush Raj Shrestha">
+
+<title> Contacts </title>
+ <!-- Links for external CSS, font styles and icons -->
+<link rel="stylesheet" type="text/css" href="CSS/contactlayout.css">	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@600&family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+	                                    <!---- Navigation Bar ---->
+	<div class="navbar">
+	<ul><!-- Internal Links to pages -->
+		<!-- inline css --> 		<li style="  float:left "><a href="home.html"><div class="icex"> </div> <i class="fa fa-search"></i> </a>
+		<li><a href="cart.html"><i class="fa fa-shopping-cart"></i></a></li>
+		<li><a href="contact.html"><b>Contact</b></a></li>
+   	
+  		<li><a href="products.html"><b>Products</b></a></li>
+  		<li><a  href="home.html"><b>Home</b></a></li>
+
+	</ul>
+    </div>
+                                      <!-- end of navigation bar-->
+    <div class="textbox">
+    	<br><br>
+    	<h1> Contact us </h1>
+    <br>
+    <br>
+    <br><br><br>    	
+    </div>
+    </section>
+    
+                             <!--contact information-->
+    <section class="contactus">
+    	<h1>
+    		Our Information
+    	</h1>
+    	<br>
+    	<p>
+    		<B>If any help needed, please feel free to contact us via email, phone or by directly visiting us at our main branch</B> 
+    	</p>
+    	<br>
+    	<br>
+    	<div class="row">
+    		<div class="contact-col">	
+    		    <div> <!-- Icons -->
+    		    	<i class="fa fa-map-marker"></i>
+    		    	<span>
+    		    		<h4> Mamadu Galli, Mahapal</h4>
+    		    		<p> <b>  Lalitpur, Nepal </b></p>
+    		    	</span>
+    		   </div>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="contact-col">	
+    		    <div>
+    		    	<i class="fa fa-envelope-o" ></i>
+    		    	<span>
+    		    		<h4> tunatatatuna@gmail.com</h4>
+    		    		<p> <b> Email us your queries </b> </p>
+    		    	</span>
+    		   </div>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="contact-col">	
+    		    <div>
+    		    	<i class="fa fa-mobile"> </i>
+    		    	<span>
+    		    		<h4> +977 9864475626</h4>
+    		    		<p><b>  Everyday 8AM - 7PM</b></p>
+    		    	</span>
+    		   </div>
+    		</div>
+    	</div> 
+    	<br>
+    	<br>
+    <div class="input">
+    	
+    	<!--- form --->
+    	Message Us
+    	<br><br><br>
+			<form name="messageForm" onsubmit="validateForm()">
+				<p>First name: <input style="font-weight: bolder; font-size: 15px; " type="text" name="firstname" placeholder="Enter First Name"></p>
+				<p>Last name: <input style="font-weight: bolder; font-size: 15px; " type="text" name="lastname" placeholder="Enter Last Name"></p>
+				<p>Gender: <input style="font-weight: bolder; font-size: 15px; " type="radio" name="gender" value="male" checked> Male <input type="radio" name="gender" value="female"> Female </p>
+				<p>Message: <br><textarea style="font-weight: bolder; font-size: 15px; " name="message" rows="10" cols="30" placeholder="Enter Message"></textarea></p>
+				<p><input type="submit" value="Send"></p>
+			</form>
+
+    
+	</div>
+    <br><br><br><br>
+  </section>
+
+   <!-- Google Map -->
+   	<div class="map">
+   	<h1>
+   		Our location
+   	</h1>
+   	<br>
+   	<p>
+   		<b> Feel free to visit us at our main branch </b>
+   	</p>
+   	<br><br>   	<!-- Embedded map -->
+    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14133.589295205698!2d85.31872287398292!3d27.67411217797922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19c45d16e1e1%3A0x20d063d60383b2ae!2sMangal%20Bazaar%2C%20Lalitpur%2044600!5e0!3m2!1sen!2snp!4v1642615756644!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</div>
+   
+                                  <!-- footer-->
+  <section class="footer">
+<br>
+	
+	  
+		<p> Follow our socials </p>
+		<br><!-- External Link to social media pages -->
+	<a href="https://www.twitter.com/xxxtenpentagon"><img class="socialmedia" src="images/tw.png" alt="Twitter" ></a>
+	<a href="https://www.instagram.com/icesthagram"><img class="socialmedia" src="images/ig.png" alt="Instagram"></a>
+	<a href="https://www.tiktok.com/@skeleton_milkshake"><img class="socialmedia" src="images/tiktok.png" alt="Instagram"></a>
+<br>
+<br>
+<i class="fa fa-map-marker"></i> Lalitpur, Nepal 
+<br>
+&copy; 2022 iCEX Electronics. All Rights Reserved
+</section>
+
+</body>
+
+
+<!-- internal javascript-->
+
+<script type="text/javascript">
+	function validateForm() {
+	var fname = document.forms["messageForm"]["firstname"].value;
+	var lname = document.forms["messageForm"]["lastname"].value;
+	var gender = document.forms["messageForm"]["gender"].value;
+	var message = document.forms["messageForm"]["message"].value;
+
+	if (fname == "" || lname == "" || message == ""){
+		alert("Empty fields found. Please fill the form.");
+	}
+	else {
+		alert("Thank you for the feedback.");
+	}
+}
+	</script>
+ </html>
